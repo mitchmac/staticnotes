@@ -6,13 +6,6 @@ webhook_url:
 sections:
 - type: directory
   path: ''
-  label: People
-  create: all
-  match: "**/*"
-  templates:
-  - test
-- type: directory
-  path: ''
   label: Pages
   create: all
   match: "**/*"
