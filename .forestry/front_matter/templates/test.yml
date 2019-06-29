@@ -1,4 +1,27 @@
 ---
 label: Test
 hide_body: false
-fields: []
+fields:
+- name: person
+  type: field_group_list
+  fields:
+  - name: name
+    type: field_group
+    config: {}
+    fields:
+    - name: firstname
+      type: text
+      config:
+        required: false
+      label: firstname
+    - name: lastname
+      type: text
+      config:
+        required: false
+      label: lastname
+    label: Name
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Person
