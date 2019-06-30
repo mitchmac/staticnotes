@@ -7,6 +7,8 @@ sections:
 - type: document
   path: ".vuepress/config.js"
   label: Config
+- type: heading
+  label: Stuff
 - type: directory
   path: ''
   label: Pages
