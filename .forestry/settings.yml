@@ -6,7 +6,8 @@ webhook_url:
 sections:
 - type: document
   path: ".vuepress/config.js"
-  label: Settings
+  label: Config
+  match: "**/*"
 - type: directory
   path: ''
   label: Pages
