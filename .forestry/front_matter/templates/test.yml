@@ -25,5 +25,3 @@ fields:
     max: 
     labelField: 
   label: Person
-pages:
-- person.md
